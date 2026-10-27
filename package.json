@@ -6,7 +6,8 @@
   "main": "src/init.luau",
   "files": [
     "src",
-    "README.md"
+    "README.md",
+    "default.project.json"
   ],
   "license": "MIT",
   "repository": {
@@ -16,5 +17,13 @@
   "homepage": "https://github.com/3xjn/roblox-primitives#readme",
   "bugs": {
     "url": "https://github.com/3xjn/roblox-primitives/issues"
+  },
+  "types": "./src/init.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/init.d.ts",
+      "default": "./src/init.luau"
+    },
+    "./*": "./*"
   }
 }
