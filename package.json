@@ -1,0 +1,20 @@
+{
+  "name": "@3xjn/roblox-primitives",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Native Roblox interaction adapters independent of CSS, Tailwind and Coss.",
+  "main": "src/init.luau",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3xjn/roblox-primitives.git"
+  },
+  "homepage": "https://github.com/3xjn/roblox-primitives#readme",
+  "bugs": {
+    "url": "https://github.com/3xjn/roblox-primitives/issues"
+  }
+}
