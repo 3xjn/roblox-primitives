@@ -304,7 +304,7 @@ The experimental Coss Input now has bounded Studio native-Backspace, read-only, 
 
 This repository contains the `@3xjn/roblox-primitives` package. It is in active development and has not been published to npm.
 
-Authenticate Git with GitHub before running `npm install`; development dependencies use the related private GitHub repositories.
+Run `npm install` to install development dependencies from the related GitHub repositories.
 
 Build the Luau module with `rojo build default.project.json --output Primitives.rbxm`. Runtime imports expect the related modules as siblings in the Roblox package tree.
 
